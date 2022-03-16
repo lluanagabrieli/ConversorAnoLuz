@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+    background-image: url("galaxy-night-landscape.jpg");
+    background-size: 100%;
+    background-position: center bottom fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 12%;
+    font-weight: bolder;
+}
+
+input{
+    margin-top: 5px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    margin-top: 180px;
+    font-weight: bolder;
+}
+
+h4#conceito{
+    background: linear-gradient(to left,  #8a0df0 0%,  #ff00b3 100%);
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.button-css{
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    position:initial;
+    background-color: rgb(234, 0, 255);
+}
+.button-css:hover{
+    color: rgb(234, 0, 255);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.button-css-2{
+    margin-top: 30px;
+    border: solid 2px transparent;
+    border-radius: 15px;
+    border-color: rgb(43, 0, 233);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.button-css-2:hover{
+    background-color: rgb(43, 0, 233);
+    color: white;
+    transition: 0.5s;
+}
+
+.container {
+    text-align: center;
+}
+
+.titulo-inicial{
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    margin-top: 25px;
+}
+
+.subtitle{
+    color:rgb(187, 0, 171);
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#valorConvertido{
+    margin-top: 50px;
+    color: white;
+}
+
+#conceito{
+    margin-top: 20px;
+}
