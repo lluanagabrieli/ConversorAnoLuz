@@ -12,25 +12,19 @@ label{
     font-size: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin-top: 12%;
     font-weight: bolder;
+
 }
 
 input{
     margin-top: 5px;
 }
 
-footer{
-    color: rgb(255, 255, 255);
-    margin-top: 180px;
-    font-weight: bolder;
-}
-
 h4#conceito{
-    background: linear-gradient(to left,  #8a0df0 0%,  #ff00b3 100%);
+    background: linear-gradient(to right, #a331ff 0%,  #1900ff 100%);
     color: white;
     text-align: center;
-    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
 }
 
 .button-css{
@@ -65,6 +59,13 @@ h4#conceito{
 
 .container {
     text-align: center;
+    height: 260px ;
+
+}
+
+.container-2{
+    text-align: center;
+    margin-top: 80px;
 }
 
 .titulo-inicial{

@@ -19,16 +19,18 @@
 
         <button class="button-css-2" type="submit" onclick="anoLuzKM()">Quanto um ano-luz equivale?</button><br>
 
-        <h4 class="invisible" id="conceito"></h4>
+        <h4 class="invisible" id="conceito"></h4><br><br><br><br><br>
      
+        
+    </div>
+
+    <div class="container-2">
         <label for="anos">Insira o ano desejado:</label><br>
         <input type="number" id="ano"/><br>
         <button class="button-css" type="submit" onclick="Converter()">Converter</button>
-
         <h2 id="valorConvertido"></h2>
-        
-        <footer>@lluanagabrieli</footer>
     </div>
+    
 
     <script>
         function Converter(){
@@ -39,20 +41,20 @@
             var anoLuzCalculo = parseFloat(anoLuzCalculo)
             
                 if(anoDigitado === 1){
-                    document.getElementById('valorConvertido').innerHTML = 'Um ano-luz equivale a: '+anoLuzCalculo + ' km.'
+                    document.getElementById('valorConvertido').innerHTML = 'Um ano-luz equivale a: '+anoLuzCalculo + ' quilômetros.'
                     document.getElementById('ano').value = ''
                 }
                 if(anoDigitado>1){
-                    document.getElementById('valorConvertido').innerHTML = anoDigitado+' anos-luz equivalem a: '+anoLuzCalculo+ ' km.'
+                    document.getElementById('valorConvertido').innerHTML = anoDigitado+' anos-luz equivalem a: '+anoLuzCalculo+ ' quilômetros.'
                     document.getElementById('ano').value = ''
                 }
         }
         
         function anoLuzConceito(){
             document.getElementById('conceito').innerHTML = "Ano-luz é uma unidade de medida astronômica. É a distância que uma partícula de luz percorre durante um ano."
-            var conceito = document.getElementById('conceito').className
+            var botaoInvisible = document.getElementById('conceito').className
             
-            if(conceito === 'invisible'){
+            if(botaoInvisible === 'invisible'){
                 document.getElementById('conceito').className = ''
             }else{
                 document.getElementById('conceito').className = 'invisible'
@@ -61,9 +63,9 @@
 
         function anoLuzKM(){
             document.getElementById('conceito').innerHTML = "Um ano-luz equivale a cerca de 9,5 trilhões de quilômetros. "
-            var conceito = document.getElementById('conceito').className
+            var botaoInvisible = document.getElementById('conceito').className
             
-            if(conceito === 'invisible'){
+            if(botaoInvisible === 'invisible'){
                 document.getElementById('conceito').className = ''
             }else{
                 document.getElementById('conceito').className = 'invisible'
